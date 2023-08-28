@@ -1,0 +1,39 @@
+.footer{
+    max-width: 1518px;
+    min-height: 470px;
+    background-color: #3C4242;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul{
+        gap: 5px;
+    }
+    li{
+        margin-top: 15px;
+        list-style: none;
+        h4{
+            color: white;
+        }
+    }
+    h3{
+        color: white;
+    }
+}
+.need{
+    max-width: 1159px;
+    min-height: 382px;
+    margin-top: -50px;
+    display: flex;
+    gap: 20px;
+}
+.iconsz{
+    color: white !important; 
+    transition: .7s;
+}
+.icinmr{
+    margin-top: 20x !important;
+}
+.womenn{
+    margin: 30px 120px;
+}

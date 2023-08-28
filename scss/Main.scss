@@ -1,0 +1,40 @@
+@use "./all-blocks/Navbar.scss";
+@use "./all-blocks/Responsive.scss";
+@use "./all-blocks/Bigsaving.scss";
+@use "./all-blocks/Footer.scss";
+
+
+
+
+
+.cursor{
+  cursor: pointer;  
+}
+.hovers:hover{
+  opacity: .5;
+}
+.trans{
+    transition: .7s;
+}
+.btn-bg-dark-hover:hover{
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+.btn-bg-white-hover:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-color: white;
+}
+li a{
+  list-style: none;
+  text-decoration: none;
+}
+ a{
+  text-decoration: none;
+  list-style: none;
+}
+.lists{
+  text-decoration: none;
+  color: black;
+}
